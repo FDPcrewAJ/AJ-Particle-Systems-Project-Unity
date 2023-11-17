@@ -6654,7 +6654,7 @@ GameObject:
   - component: {fileID: 617116391}
   m_Layer: 0
   m_Name: characterMedium
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22995,6 +22995,10 @@ PrefabInstance:
     - target: {fileID: 114886077419656404, guid: 1e8a24275f78368469eb95764e51b756, type: 3}
       propertyPath: rotationSpeed
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114886077419656404, guid: 1e8a24275f78368469eb95764e51b756, type: 3}
+      propertyPath: CollectibleType
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e8a24275f78368469eb95764e51b756, type: 3}
